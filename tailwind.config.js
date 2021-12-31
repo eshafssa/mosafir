@@ -8,6 +8,13 @@ module.exports = {
         'Blue' :'#3D53B2',
         'lightBleu':'#566BBE',
 
+      },
+      boxShadow: {
+        //'3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        '3xl': '25px 20px 25px -5px rgba(0, 0, 0, 0.1)',
+        //'3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        '4xl':'0 25px 50px -12px rgba(0, 0, 0, 0.25);'
       }
     },
   },

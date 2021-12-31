@@ -91,6 +91,20 @@
         <h1 class="text-Blue text-5xl  font-thin my-8 ">What Our Customers Say ?</h1>
         <p class="text-gray-400 text-2xl font-normal mx-auto" style="width:670px">Let's see what those who are already using our services say and enjoy their experience.</p>
       </div>
+      <slider-2/>
+      <div class="flex items-center  mb-10">
+        <div class="h-1 bg-gray-300 mr-12" style="width:1100px;">
+          <div class="h-1 bg-Green mr-12 w-2/5 " style=""></div>
+        </div>
+         <div class="flex ">
+          <div class="bg-gray-200 w-12  rounded-2xl h-12 flex items-center justify-center cursor-pointer mr-4">
+            <myicons name='left' class="text-white"/>
+          </div>
+          <div class="bg-Green w-12 rounded-2xl h-12 flex items-center justify-center cursor-pointer">
+            <myicons name='right' class="text-white"/>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -101,14 +115,16 @@ import MyHeader from '@/components/MyHeader.vue'
 import Myicons from '@/components/Myicons.vue'
 import MySlider from '@/components/MySlider.vue'
 import MyButton from '@/components/MyButton.vue'
-
+import Slider2 from '@/components/Slider2.vue'
 export default {
   name: 'Home',
   components: {
     Myicons,
     MyHeader,
     MySlider,
-    MyButton
+    MyButton,
+    Slider2
+    
 
   },
   data(){
