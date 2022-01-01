@@ -105,7 +105,7 @@
           </div>
         </div>
       </div>
-      <div class="my-32 rounded-2xl  " style="background-image: url('img/Image.png'); background-size:cover;height:400px">
+      <div class="my-32 rounded-2xl  " style="background-image: url('img/Image.png'); background-size:cover;height:430px">
         <div></div>
         <h1 class="py-16 px-24 text-white text-5xl leading-50 " style="width:600px; ">Subscribe Our Best Newsletters<span>.</span></h1>
         <div class="rounded-2xl bg-white mx-24 w-100" >
@@ -116,6 +116,11 @@
         </div>
       </div>
     </div>
+    <div>
+      <Footer/>
+    </div>
+   <myicons name="facebook2"  class="flex items-center justify-center text-Green  rounded-full"/>
+    
   </div>
 </template>
 
@@ -126,6 +131,7 @@ import Myicons from '@/components/Myicons.vue'
 import MySlider from '@/components/MySlider.vue'
 import MyButton from '@/components/MyButton.vue'
 import Slider2 from '@/components/Slider2.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   name: 'Home',
   components: {
@@ -133,7 +139,9 @@ export default {
     MyHeader,
     MySlider,
     MyButton,
-    Slider2
+    Slider2,
+    Footer
+    
     
     
 
