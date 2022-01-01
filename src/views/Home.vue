@@ -105,6 +105,16 @@
           </div>
         </div>
       </div>
+      <div class="my-32 rounded-2xl  " style="background-image: url('img/Image.png'); background-size:cover;height:400px">
+        <div></div>
+        <h1 class="py-16 px-24 text-white text-5xl leading-50 " style="width:600px; ">Subscribe Our Best Newsletters<span>.</span></h1>
+        <div class="rounded-2xl bg-white mx-24 w-100" >
+          <div class="flex items-center justify-between p-3">
+            <input type="text" class="text-base font-semibold outline-none px-6 text-gray-400" name="" id="" placeholder="youremail@mail.com">
+            <my-button class="bg-Green p-4 text-white  w-40 font-semibold" text="Subscribe Now" ></my-button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -124,6 +134,7 @@ export default {
     MySlider,
     MyButton,
     Slider2
+    
     
 
   },
