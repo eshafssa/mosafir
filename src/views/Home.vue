@@ -1,36 +1,6 @@
 <template>
   <div class="" >
-    <div style="background-image: url('img/Bus.png'); background-size:cover; height:849px">
-      <my-header/>
-      <div class="pt-20 pb-20 px-28 text-white text-9xl font-thin" style="width:750px;font-size: 450%;">
-        Your Travel Start from here<span class="text-Green">.</span>
-      </div>
-      <div  class="pt-21 pb-16 px-28 text-white opacity-75 " style="width:645px;font-size:170%;">
-        Find your Destination over <span class="text-Green">16000+</span> Trips & Explore amazing Cities for a perfect day
-      </div>
-      <div class="flex items-center px-5 mx-28 py-5  mt-10  bg-white border rounded-2xl  h-20" style="width:35.5%">
-        <div>
-          Depart
-          <div class="flex items-center text-gray-400 text-base font-semibold mt-1">
-            <myicons name='localisation' class="px-1 cursor-pointer"></myicons>
-            <input type="text" name="" id="" value="Tetouan" class="w-20 outline-none">
-            <myicons name='down' class="px-4 cursor-pointer"></myicons>
-          </div>
-        </div>
-        <div class="ml-4 mr-10 w-0.5 h-11 bg-gray-400">  </div>
-        <div>
-          Destination
-          <div  class="flex items-center text-gray-400 text-base font-semibold mr-5 mt-1">
-            <myicons name='localisation' class="px-1 cursor-pointer"></myicons> 
-            <input type="text" name="" id="" value="Casablanca" class="w-20 outline-none">
-            <myicons name='down' class="px-4 cursor-pointer "></myicons>
-          </div>
-        </div>
-        <div class="p-7 bg-Green w-12 rounded-2xl h-12 flex items-center justify-center cursor-pointer">
-          <myicons name='search' class="text-white"/>
-        </div>
-      </div>
-    </div>
+    <my-header/>
     <div  class="px-28">
       <h1 class="text-Blue text-5xl mt-28 mb-14">Explore Morocco<span class="text-Green">.</span></h1>
       <div class="flex items-center justify-between mb-14">
@@ -85,7 +55,7 @@
         </div>
       </div>  
       <div class="flex items-center justify-center">
-        <my-button class="w-36  h-auto px-4 py-3 text-white bg-Green" text="See all Articales"></my-button>
+        <my-button class="h-auto px-4 py-3 text-white bg-Green" text="See all Articales"></my-button>
       </div>
        <div class="text-center ">
         <h1 class="text-Blue text-5xl  font-thin my-8 ">What Our Customers Say ?</h1>
@@ -119,7 +89,6 @@
     <div>
       <Footer/>
     </div>
-   <myicons name="facebook2"  class="flex items-center justify-center text-Green  rounded-full"/>
     
   </div>
 </template>

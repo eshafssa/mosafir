@@ -35,10 +35,10 @@ export default {
                 {id:3, source:'img/casti.jpg'},
                 {id:4, source:'img/fes.jpg'},
                 {id:5, source:'img/marakesh.jpg'},
-                {id:6, source:'img/Hespress.png'},
-                {id:7, source:'img/Image.png'},
-                {id:8, source:'img/logo.png'},
-                {id:9, source:'img/pressT.png'},
+                // {id:6, source:'img/Hespress.png'},
+                // {id:7, source:'img/Image.png'},
+                // {id:8, source:'img/logo.png'},
+                // {id:9, source:'img/pressT.png'},
             ]
        }
     },
